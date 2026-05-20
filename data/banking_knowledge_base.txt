@@ -1,0 +1,472 @@
+
+=== PERSONAL LOANS ===
+
+A personal loan is an unsecured loan provided by banks and financial institutions to individuals for personal use such as medical emergencies, travel, wedding expenses, education, or home renovation.
+
+Eligibility for Personal Loan:
+- Age: 21 to 60 years (salaried), 25 to 65 years (self-employed)
+- Minimum monthly income: Rs. 25,000 for salaried individuals
+- Minimum business income: Rs. 5 lakhs per annum for self-employed
+- Credit score: 700 or above recommended
+- Employment: Minimum 2 years of work experience, 1 year with current employer
+- Nationality: Indian resident
+
+Personal Loan Interest Rates:
+- Standard interest rate: 10.5% to 24% per annum depending on credit profile
+- Processing fee: 1% to 3% of loan amount
+- Prepayment charges: 2% to 5% of outstanding principal
+- No prepayment allowed within first 6 months
+
+Personal Loan Amount and Tenure:
+- Minimum loan amount: Rs. 50,000
+- Maximum loan amount: Rs. 40 lakhs
+- Loan tenure: 1 year to 5 years (12 to 60 months)
+- EMI calculated based on reducing balance method
+
+Documents Required for Personal Loan:
+- Identity proof: Aadhaar card, PAN card, Passport, Voter ID
+- Address proof: Utility bills, Rental agreement, Passport
+- Income proof: Last 3 months salary slips, Form 16, ITR for last 2 years
+- Bank statements: Last 6 months bank account statements
+- Employment proof: Appointment letter, employee ID
+
+Personal Loan Application Process:
+1. Apply online or visit branch
+2. Submit required documents
+3. Bank verifies documents and credit score
+4. Loan approval within 24 to 72 hours
+5. Amount disbursed to bank account within 2 to 5 working days
+
+=== HOME LOANS ===
+
+A home loan is a secured loan provided to purchase, construct, or renovate a residential property. The property acts as collateral until the loan is fully repaid.
+
+Home Loan Types:
+- Home Purchase Loan: For buying a ready-to-move or under-construction property
+- Home Construction Loan: For constructing a new house on owned land
+- Home Improvement Loan: For renovation, repair, or extension of existing home
+- Home Extension Loan: For adding additional space to existing property
+- Balance Transfer Loan: Transfer existing home loan to another lender at lower rate
+- NRI Home Loan: For Non-Resident Indians to purchase property in India
+
+Home Loan Eligibility:
+- Age: 18 to 70 years (loan must be repaid before age 70)
+- Minimum income: Rs. 25,000 per month for salaried
+- Credit score: 750 or above recommended for best rates
+- Loan-to-Value (LTV) ratio: Up to 90% for loans up to Rs. 30 lakhs, 80% for Rs. 30-75 lakhs, 75% for above Rs. 75 lakhs
+
+Home Loan Interest Rates:
+- Floating interest rate: 8.5% to 11% per annum (linked to REPO rate)
+- Fixed interest rate: 9% to 12% per annum for first 2-3 years
+- Women borrowers get 0.05% concession on interest rate
+- PMAY subsidy available for eligible first-time homebuyers
+
+Home Loan Documentation:
+- KYC documents: PAN, Aadhaar, Passport
+- Income documents: Salary slips, ITR, Form 16, bank statements
+- Property documents: Sale agreement, NOC from builder, property tax receipts
+- Legal documents: Title deed, encumbrance certificate
+
+Home Loan Repayment:
+- Maximum tenure: 30 years
+- Prepayment of floating rate loan: No penalty charges
+- Prepayment of fixed rate loan: 2% charges on prepaid amount
+- Part prepayment allowed after 6 months of loan disbursement
+
+=== CREDIT CARDS ===
+
+A credit card is a payment card that allows cardholders to borrow funds to pay for goods and services, with the obligation to repay the borrowed amount along with applicable interest.
+
+Types of Credit Cards:
+- Classic/Basic Card: Entry-level card with basic features, low credit limit
+- Silver Card: Mid-range card with reward points and basic offers
+- Gold Card: Premium card with higher credit limit, travel benefits, and lounge access
+- Platinum Card: High-end card with concierge services and premium rewards
+- Super Premium Card: Invite-only cards with exclusive benefits for HNI customers
+- Co-branded Cards: Partnership cards with airlines, retailers, or OTT platforms
+- Business Credit Cards: Designed for business expenses with expense management features
+
+Credit Card Fees and Charges:
+- Annual fee: Rs. 0 to Rs. 10,000 depending on card type
+- Joining fee: Rs. 0 to Rs. 5,000 (often waived on spending milestone)
+- Annual fee waiver: Typically on spending Rs. 1 to 2 lakhs per year
+- Late payment fee: Rs. 100 to Rs. 1,300 depending on outstanding amount
+- Over-limit fee: 2.5% of over-limit amount, minimum Rs. 500
+- Cash advance fee: 2.5% to 3% of withdrawn amount, minimum Rs. 500
+- Foreign transaction fee: 1.5% to 3.5% of transaction amount
+- Duplicate statement fee: Rs. 100 per statement
+
+Credit Card Interest Rates:
+- Monthly interest rate: 2.5% to 3.75% per month
+- Annual percentage rate: 30% to 45% per annum
+- Interest-free period: 20 to 50 days from transaction date
+- Cash advances: Interest charged from day of withdrawal, no interest-free period
+
+Credit Card Reward Points:
+- Earn rate: 1 to 10 reward points per Rs. 100 spent
+- Accelerated points: 2x to 10x points on select categories
+- Redemption: Against statement credit, flights, hotels, merchandise, Amazon/Flipkart vouchers
+- Expiry: Points valid for 2 to 3 years from date of earn
+
+Credit Card Safety and Security:
+- Set transaction PIN for all card-present transactions
+- Enable/disable international transactions as required
+- Set spending limits on card
+- OTP mandatory for all online transactions (2FA)
+- Report lost/stolen card immediately by calling customer care
+- Block card temporarily using mobile banking app
+- Fraud liability protection: Zero liability if reported within 3 days
+
+Credit Limit:
+- Based on income, credit score, existing obligations
+- Credit utilization ratio should be below 30% for good credit score
+- Credit limit increase request can be made after 6 months of good usage
+
+=== SAVINGS ACCOUNTS ===
+
+A savings account is a deposit account held at a bank that earns interest on the deposited funds. It is the most common type of bank account for individuals.
+
+Types of Savings Accounts:
+- Regular Savings Account: Standard account with basic features
+- Zero Balance Savings Account (Basic Savings Account): No minimum balance required
+- Senior Citizen Savings Account: Higher interest rates for customers above 60 years
+- Women's Savings Account: Special offers, insurance benefits for women
+- Kids/Minor Savings Account: For children below 18, operated by guardian
+- Premium/Privilege Savings Account: Higher balance requirement, premium benefits
+- Salary Account: Corporate salary account with zero balance facility
+- NRI Savings Account (NRE/NRO): For Non-Resident Indians
+
+Savings Account Interest Rates:
+- Standard rate: 2.7% to 7% per annum depending on balance and bank
+- Interest calculated daily on closing balance
+- Interest credited quarterly (March, June, September, December)
+- Senior citizens get additional 0.25% to 0.50% on some accounts
+
+Minimum Balance Requirements:
+- Metro/Urban branches: Rs. 5,000 to Rs. 10,000
+- Semi-urban branches: Rs. 2,000 to Rs. 5,000
+- Rural branches: Rs. 500 to Rs. 1,000
+- Zero balance accounts: No minimum balance
+- Penalty for non-maintenance: Rs. 100 to Rs. 750 per month
+
+Savings Account Features:
+- Free debit card (Visa/Mastercard/RuPay)
+- Net banking and mobile banking access
+- UPI transactions via linked account
+- Free IMPS, NEFT, RTGS through mobile/net banking
+- Passbook and monthly e-statement facility
+- ATM cash withdrawal: 5 free transactions per month at own bank ATMs
+- Other bank ATMs: 3 free transactions per month in metro cities
+
+Account Opening:
+- Visit branch or apply online
+- Submit KYC documents (Aadhaar + PAN mandatory)
+- Initial deposit as per account type
+- Account activated within 24-48 hours
+- Debit card delivered within 7-10 working days
+
+=== FIXED DEPOSITS ===
+
+A Fixed Deposit (FD) is a financial instrument provided by banks offering investors a higher rate of interest than a regular savings account, until the given maturity date.
+
+Fixed Deposit Interest Rates:
+- General public: 3% to 7.5% per annum depending on tenure
+- Senior citizens: Additional 0.25% to 0.75% over general rates
+- Super senior citizens (above 80 years): Additional 0.10% to 0.25% extra
+- Highest rates typically for 1 to 3 year tenure
+
+Fixed Deposit Tenure Options:
+- Minimum tenure: 7 days
+- Maximum tenure: 10 years
+- Short-term: 7 days to 1 year
+- Medium-term: 1 year to 5 years
+- Long-term: 5 years to 10 years
+
+Fixed Deposit Features:
+- Guaranteed returns with zero market risk
+- Auto-renewal facility available
+- Nomination facility available
+- Loan against FD: Up to 90% of FD amount at FD rate + 1-2%
+- Tax-saving FD: 5-year lock-in, eligible for Section 80C deduction up to Rs. 1.5 lakhs
+- Sweep-in FD: Automatic FD from savings account excess amount
+
+Premature Withdrawal:
+- Allowed with penalty of 0.5% to 1% on applicable rate
+- Some banks offer penalty-free premature withdrawal after specific lock-in
+- Tax-saving FD cannot be withdrawn before 5 years
+- Partial premature withdrawal not allowed (full FD must be broken)
+
+TDS on Fixed Deposits:
+- TDS deducted at 10% if interest exceeds Rs. 40,000 per year (Rs. 50,000 for senior citizens)
+- Submit Form 15G (for non-senior citizens below tax bracket) or Form 15H (for senior citizens) to avoid TDS
+- TDS certificate (Form 16A) issued quarterly
+
+=== CURRENT ACCOUNTS ===
+
+A current account is a deposit account for business entities and individuals with high transaction volumes. It allows unlimited transactions without interest on the deposited amount.
+
+Current Account Features:
+- Unlimited transactions (no restriction on number of deposits/withdrawals)
+- Overdraft facility available (credit line against account)
+- Multi-city cheque book facility
+- No interest earned on deposited amount
+- Free RTGS, NEFT, and IMPS transactions (up to certain limits)
+- Dedicated relationship manager for premium accounts
+- Cash deposit and withdrawal at any branch
+
+Current Account Types:
+- Regular Current Account: For small businesses and proprietorships
+- Premium Current Account: For mid-size businesses with higher transaction limits
+- Trade Current Account: For import/export businesses with forex facilities
+- Escrow Account: For real estate developers and specific business arrangements
+- Nodal Account: For payment aggregators and marketplace platforms
+
+Minimum Balance Requirement:
+- Metro cities: Rs. 25,000 to Rs. 1,00,000
+- Other cities: Rs. 10,000 to Rs. 50,000
+- Penalty: Rs. 500 to Rs. 2,500 per month for non-maintenance
+
+Overdraft Facility:
+- Based on account turnover and credit history
+- Typically 1x to 3x of monthly average balance
+- Interest rate: 12% to 18% per annum on utilized amount
+- Overdraft limit reviewed annually
+
+=== DIGITAL BANKING AND NET BANKING ===
+
+Net Banking / Internet Banking:
+- Secure online portal to access bank accounts 24/7
+- Fund transfers: IMPS (instant), NEFT (2 hours), RTGS (same day, above Rs. 2 lakhs)
+- Bill payments: Electricity, gas, water, mobile recharge, DTH, insurance
+- Fixed deposit creation and premature closure
+- Loan account management and EMI payment
+- Tax payment (direct tax, GST)
+- Cheque book request and stop payment
+
+Mobile Banking App Features:
+- UPI payments using registered mobile number
+- QR code-based payments
+- Account balance and mini statement
+- Fund transfer to saved and new beneficiaries
+- Credit card management (block/unblock, limit change, EMI conversion)
+- Loan statements and EMI schedule
+- Demat account integration
+- Investment in mutual funds and FDs
+
+UPI (Unified Payments Interface):
+- Instant 24/7 money transfer using UPI ID, mobile number, or QR code
+- Transaction limit: Rs. 1 lakh per transaction (Rs. 2 lakhs for certain categories)
+- Linked to savings/current account
+- No additional charges for UPI transactions
+- Supports multiple bank accounts in single UPI app
+
+Security Features in Digital Banking:
+- Two-factor authentication (OTP + password)
+- Biometric login (fingerprint/face ID) in mobile app
+- Transaction-level OTP verification
+- Daily transaction limits configurable by customer
+- Real-time SMS/email alerts for all transactions
+- Session timeout after inactivity
+- 128-bit SSL encryption for all web transactions
+
+=== ACCOUNT OPENING AND KYC ===
+
+KYC (Know Your Customer) Requirements:
+- Officially Valid Documents (OVD) for identity: Aadhaar card, PAN card, Passport, Voter ID, Driving License
+- Address proof: Aadhaar card, Passport, Utility bills (not older than 3 months), Bank statement
+- PAN card mandatory for accounts with annual transactions above Rs. 50,000
+- Video KYC available for online account opening (V-CIP process)
+
+Account Opening Process:
+1. Visit branch with original documents or apply online
+2. Fill account opening form (physical or digital)
+3. Submit KYC documents (originals for verification, copies retained)
+4. Initial deposit (as per account type)
+5. Account number generated immediately
+6. Welcome kit (debit card, passbook, cheque book) delivered in 7-10 days
+
+Re-KYC Requirements:
+- Periodic KYC update required every 2 years for high-risk customers
+- Every 8-10 years for low-risk customers
+- Update required when there is a change in address, name, or contact details
+- Failure to complete re-KYC results in account freeze for debit transactions
+
+Nomination Facility:
+- Nominee can be added at account opening or later
+- Maximum 1 nominee per account (joint holders can have separate nominees)
+- Nominee receives account balance on death of account holder
+- Nomination update can be done online or at branch
+
+=== LOANS AND CREDIT - GENERAL POLICIES ===
+
+Credit Score and Its Impact:
+- CIBIL score range: 300 to 900
+- Score above 750: Excellent - best interest rates, easy approval
+- Score 650 to 750: Good - standard rates, mostly approved
+- Score 550 to 650: Fair - higher rates, limited loan amounts
+- Score below 550: Poor - loan rejection likely
+- Factors affecting CIBIL: Payment history (35%), Credit utilization (30%), Credit history length (15%), Credit mix (10%), New credit inquiries (10%)
+
+EMI Calculation:
+- EMI = [P × R × (1+R)^N] / [(1+R)^N - 1]
+- P = Principal amount, R = Monthly interest rate, N = Number of months
+- Example: Rs. 5 lakh loan at 12% p.a. for 5 years = EMI of Rs. 11,122
+
+Prepayment and Foreclosure:
+- Floating rate loans: No prepayment penalty as per RBI guidelines
+- Fixed rate loans: Prepayment penalty of 2% to 4% of outstanding amount
+- Foreclosure statement can be obtained from branch or net banking
+- NOC (No Objection Certificate) issued within 15 days of full repayment
+
+Loan Against Securities:
+- Loan against FD: Up to 90% of FD value, interest rate = FD rate + 2%
+- Loan against shares: Up to 50% of share value (as per RBI guidelines)
+- Loan against mutual funds: Up to 50% of current NAV
+- Loan against insurance policy: Up to 90% of surrender value
+
+=== CUSTOMER SUPPORT AND GRIEVANCE REDRESSAL ===
+
+Customer Support Channels:
+- 24/7 toll-free helpline: Available for all banking queries and emergency card blocking
+- Branch visit: Monday to Friday 10 AM to 4 PM, Saturday 10 AM to 2 PM
+- Email support: Response within 2 business days
+- Live chat on mobile app and website: Available 8 AM to 10 PM
+- Social media support: Twitter, Facebook (response within 4 hours on working days)
+
+Complaint Registration:
+- Register complaint online via net banking portal
+- Call customer care and request complaint registration
+- Visit nearest branch and fill complaint form
+- Written complaint to Branch Manager
+- Complaint reference number provided for tracking
+
+Grievance Redressal Timeline:
+- Complaints resolved within 30 days as per RBI guidelines
+- Priority complaints (fraud, unauthorized transactions): Resolved within 7 days
+- ATM transaction failure: Resolved within 7 working days, auto-credit if delayed
+- NEFT/RTGS failures: Resolved within 2 hours (same day) or next working day
+
+Banking Ombudsman:
+- Approach Banking Ombudsman if complaint not resolved within 30 days
+- No complaint pending beyond 1 year at first tier
+- Available in all major cities
+- Online complaint at cms.rbi.org.in
+- No fee for filing complaint with Banking Ombudsman
+
+=== RBI GUIDELINES AND BANKING REGULATIONS ===
+
+Key RBI Guidelines for Customers:
+- All banks must resolve ATM transaction failure within 7 working days with auto-compensation
+- Zero liability for unauthorized transactions if reported immediately
+- Limited liability (max Rs. 10,000) if reported within 4-7 days
+- Banks cannot charge for NEFT/RTGS via internet banking
+- Minimum 4 free ATM transactions per month from any bank ATM
+- Banks must provide basic savings account with zero balance requirement
+
+Deposit Insurance:
+- All bank deposits insured by DICGC (Deposit Insurance and Credit Guarantee Corporation)
+- Insurance coverage: Up to Rs. 5 lakhs per depositor per bank
+- Covers savings, current, fixed, and recurring deposits
+- Does not cover deposits in cooperative societies (non-scheduled)
+
+Banking Hours and Holidays:
+- Regular banking hours: 10 AM to 4 PM on weekdays
+- Second and fourth Saturdays: Bank holiday
+- All Sundays: Bank holiday
+- National holidays: Banks remain closed
+- ATMs, mobile banking, and net banking available 24/7
+
+=== BANKING SECURITY AND FRAUD PREVENTION ===
+
+Common Banking Frauds and Prevention:
+- Phishing: Never click on suspicious links in emails or SMS claiming to be from bank
+- Vishing: Bank never asks for OTP, card number, or password over phone
+- SIM Swap Fraud: Monitor for sudden loss of mobile network connectivity
+- ATM Skimming: Check ATM card slot for tampering before inserting card
+- Fake UPI Requests: Never scan QR codes or approve requests to receive money
+
+What to Do If Fraud Occurs:
+1. Immediately block card via mobile app or call customer care
+2. Change net banking and mobile banking password
+3. Report to bank within 3 days for zero liability protection
+4. File police complaint and obtain FIR copy
+5. File complaint at cybercrime.gov.in
+6. Keep all transaction records and communication as evidence
+
+Safe Banking Practices:
+- Never share OTP, PIN, or password with anyone including bank employees
+- Register mobile number with bank for real-time alerts
+- Regularly check account statements for unauthorized transactions
+- Use strong, unique passwords for net banking
+- Enable two-factor authentication wherever available
+- Avoid using public Wi-Fi for banking transactions
+- Regularly update mobile banking app
+
+=== RECURRING DEPOSITS ===
+
+A Recurring Deposit (RD) is a type of term deposit where a fixed amount is deposited every month for a predetermined period and earns interest at a fixed rate.
+
+RD Features:
+- Monthly deposit amount: Rs. 100 onwards
+- Tenure: 6 months to 10 years
+- Interest rate: Similar to FD rates for equivalent tenure
+- Interest compounded quarterly
+- Premature closure allowed with penalty of 1% to 2%
+- Loan against RD: Up to 90% of deposited amount
+
+RD Eligibility:
+- Resident individuals, HUFs, companies, and trusts
+- Minor RD can be opened with guardian
+- Joint RD allowed (up to 3 holders)
+
+=== DEMAT AND TRADING ACCOUNTS ===
+
+Demat Account:
+- Electronic account to hold shares and securities in dematerialized form
+- Maintained by depositories NSDL and CDSL
+- Annual maintenance charge: Rs. 300 to Rs. 800 per year
+- Opening charge: Nil to Rs. 500
+
+3-in-1 Account:
+- Combination of savings account, demat account, and trading account
+- Seamless fund transfer between accounts
+- Recommended for active investors and traders
+
+=== INSURANCE PRODUCTS OFFERED BY BANKS ===
+
+Life Insurance:
+- Term insurance: Pure protection plan for specific period
+- Endowment plan: Savings + protection combination
+- ULIP: Market-linked insurance product
+- Group insurance: Coverage for loan borrowers
+
+General Insurance:
+- Home insurance: Protection against fire, theft, natural disasters
+- Vehicle insurance: Mandatory third-party + optional comprehensive coverage
+- Health insurance: Medical expense coverage for self and family
+- Travel insurance: Coverage for international and domestic travel
+
+=== BANKING GLOSSARY ===
+
+IMPS: Immediate Payment Service - real-time 24/7 fund transfer up to Rs. 5 lakhs
+NEFT: National Electronic Funds Transfer - batch-mode fund transfer, available 24/7
+RTGS: Real-Time Gross Settlement - for high-value transfers above Rs. 2 lakhs, minimum Rs. 2 lakhs
+UPI: Unified Payments Interface - instant mobile payment system
+CIBIL: Credit Information Bureau India Limited - credit bureau maintaining credit scores
+EMI: Equated Monthly Installment - fixed monthly payment for loan repayment
+NPA: Non-Performing Asset - loan where repayment is overdue beyond 90 days
+MCLR: Marginal Cost of Funds-based Lending Rate - benchmark rate for loan pricing
+REPO Rate: Rate at which RBI lends money to commercial banks
+NOC: No Objection Certificate - issued after loan closure confirming no dues
+KYC: Know Your Customer - process to verify customer identity
+ECS: Electronic Clearing Service - automatic debit for recurring payments
+NACH: National Automated Clearing House - improved version of ECS for bulk transactions
+PAN: Permanent Account Number - unique 10-character alphanumeric identifier for tax purposes
+TDS: Tax Deducted at Source - tax deducted on interest income above threshold
+FD: Fixed Deposit - term deposit with fixed interest for fixed tenure
+RD: Recurring Deposit - monthly savings with fixed interest
+LTV: Loan-to-Value ratio - percentage of loan against property value
+OTP: One-Time Password - single-use code for transaction authentication
+ATM: Automated Teller Machine - self-service banking terminal
+IFSC: Indian Financial System Code - 11-digit code for bank branch identification in electronic transfers
+MICR: Magnetic Ink Character Recognition - 9-digit code on cheques identifying bank and branch

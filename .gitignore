@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+*.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# ChromaDB (generated at runtime)
+chroma_db/
+chroma_db_test/
+
+# Uploads (user content — not committed)
+uploads/
+!uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Node (if any frontend tooling is added)
+node_modules/
+.npm/
+
+# Docker
+.dockerignore
+
+# Testing
+htmlcov/
+.coverage
+coverage.xml
+
+# Secrets
+*.pem
+*.key
+secrets.json
+.secrets.baseline
