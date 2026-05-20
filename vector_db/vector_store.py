@@ -1,11 +1,13 @@
 """
-Vector Store Service
---------------------
-ChromaDB-backed persistent vector store.
-Provides add, search, and metadata operations.
+Vector Store / Database Integration
+-----------------------------------
+Handles the ChromaDB instance, collection management, and embedding of
+documents into the vector space. It also performs similarity search for RAG.
+Provides robust indexing and retrieval functions for the banking knowledge base.
 """
 
 from typing import List, Tuple, Optional
+import os
 
 import chromadb
 from chromadb.config import Settings as ChromaSettings
