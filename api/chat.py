@@ -1,5 +1,8 @@
 """
-Chat Route — POST /chat
+Chat API Routes
+---------------
+Handles incoming chat requests, triggering the RAG pipeline, and
+returning contextual responses. Validates user input before processing.
 """
 
 from fastapi import APIRouter, HTTPException, status
