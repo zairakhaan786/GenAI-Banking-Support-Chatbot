@@ -12,9 +12,9 @@ from chromadb.config import Settings as ChromaSettings
 from langchain_core.documents import Document
 from langchain_chroma import Chroma
 
-from app.config import settings
-from app.services.embeddings import get_embedding_service
-from app.utils.logger import logger
+from backend.app.config import settings
+from rag_pipeline.embeddings import get_embedding_service
+from backend.app.utils.logger import logger
 
 
 class VectorStoreService:

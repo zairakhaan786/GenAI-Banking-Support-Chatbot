@@ -2,9 +2,9 @@ services:
   - type: web
     name: genai-banking-chatbot
     runtime: python
-    rootDir: backend
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    rootDir: .
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: PYTHONPATH=. uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: LLM_PROVIDER
         value: groq

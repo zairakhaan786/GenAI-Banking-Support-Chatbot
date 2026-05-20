@@ -11,10 +11,10 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from pathlib import Path
 
-from app.config import settings
-from app.routes import chat, health, upload
-from app.services.rag_pipeline import get_rag_pipeline
-from app.utils.logger import logger, setup_logger
+from backend.app.config import settings
+from api import chat, health, upload
+from rag_pipeline.rag_pipeline import get_rag_pipeline
+from backend.app.utils.logger import logger, setup_logger
 
 # ── Lifespan ───────────────────────────────────────────────────────────────────
 

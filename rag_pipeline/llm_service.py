@@ -10,8 +10,8 @@ from typing import List, Optional, Tuple
 
 from langchain_core.documents import Document
 
-from app.config import settings
-from app.utils.logger import logger
+from backend.app.config import settings
+from backend.app.utils.logger import logger
 
 
 class LLMService:

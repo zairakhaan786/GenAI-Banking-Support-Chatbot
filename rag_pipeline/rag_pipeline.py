@@ -14,14 +14,14 @@ from typing import List, Tuple
 
 from langchain_core.documents import Document
 
-from app.config import settings
+from backend.app.config import settings
 from app.models.schemas import ChatResponse, SourceChunk
-from app.services.document_processor import DocumentProcessor
-from app.services.embeddings import get_embedding_service
-from app.services.llm_service import get_llm_service
-from app.services.memory import get_memory_service
-from app.services.vector_store import get_vector_store
-from app.utils.logger import logger
+from rag_pipeline.document_processor import DocumentProcessor
+from rag_pipeline.embeddings import get_embedding_service
+from rag_pipeline.llm_service import get_llm_service
+from rag_pipeline.memory import get_memory_service
+from vector_db.vector_store import get_vector_store
+from backend.app.utils.logger import logger
 
 # Path to the built-in banking knowledge base
 KNOWLEDGE_BASE_PATH = Path(__file__).resolve().parents[3] / "data" / "banking_knowledge_base.txt"

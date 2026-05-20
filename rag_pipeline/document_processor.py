@@ -12,8 +12,8 @@ from typing import List, Tuple
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from app.config import settings
-from app.utils.logger import logger
+from backend.app.config import settings
+from backend.app.utils.logger import logger
 
 
 class DocumentProcessor:

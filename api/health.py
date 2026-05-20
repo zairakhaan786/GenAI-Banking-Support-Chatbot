@@ -4,11 +4,11 @@ Health Route — GET /health
 
 from fastapi import APIRouter
 
-from app.config import settings
+from backend.app.config import settings
 from app.models.schemas import ComponentStatus, HealthResponse
-from app.services.memory import get_memory_service
-from app.services.vector_store import get_vector_store
-from app.utils.logger import logger
+from rag_pipeline.memory import get_memory_service
+from vector_db.vector_store import get_vector_store
+from backend.app.utils.logger import logger
 
 router = APIRouter(prefix="/health", tags=["Health"])
 
@@ -48,7 +48,7 @@ async def health_check() -> HealthResponse:
 
     # LLM provider
     try:
-        from app.services.llm_service import get_llm_service
+        from rag_pipeline.llm_service import get_llm_service
         llm = get_llm_service()
         components["llm"] = ComponentStatus(
             status="ok", details=f"Provider: {llm.model_name}"

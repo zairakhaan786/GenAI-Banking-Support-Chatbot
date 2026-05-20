@@ -11,8 +11,8 @@ from dataclasses import dataclass, field
 from threading import Lock
 from typing import List, Dict
 
-from app.config import settings
-from app.utils.logger import logger
+from backend.app.config import settings
+from backend.app.utils.logger import logger
 
 
 @dataclass

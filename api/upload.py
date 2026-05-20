@@ -8,10 +8,10 @@ from pathlib import Path
 
 from fastapi import APIRouter, File, HTTPException, UploadFile, status
 
-from app.config import settings
+from backend.app.config import settings
 from app.models.schemas import ErrorResponse, UploadResponse
-from app.services.rag_pipeline import get_rag_pipeline
-from app.utils.logger import logger
+from rag_pipeline.rag_pipeline import get_rag_pipeline
+from backend.app.utils.logger import logger
 
 router = APIRouter(prefix="/upload", tags=["Upload"])
 

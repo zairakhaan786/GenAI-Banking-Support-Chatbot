@@ -1,7 +1,7 @@
 """Application entry point — run with: python run.py or uvicorn app.main:app"""
 
 import uvicorn
-from app.config import settings
+from backend.app.config import settings
 
 if __name__ == "__main__":
     uvicorn.run(

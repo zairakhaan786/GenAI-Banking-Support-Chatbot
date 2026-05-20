@@ -5,8 +5,8 @@ Chat Route — POST /chat
 from fastapi import APIRouter, HTTPException, status
 
 from app.models.schemas import ChatRequest, ChatResponse, ErrorResponse
-from app.services.rag_pipeline import get_rag_pipeline
-from app.utils.logger import logger
+from rag_pipeline.rag_pipeline import get_rag_pipeline
+from backend.app.utils.logger import logger
 
 router = APIRouter(prefix="/chat", tags=["Chat"])
 

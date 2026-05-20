@@ -15,8 +15,8 @@ os.environ["PYTORCH_MPS_HIGH_WATERMARK_RATIO"] = "0.0"
 
 from langchain_huggingface import HuggingFaceEmbeddings
 
-from app.config import settings
-from app.utils.logger import logger
+from backend.app.config import settings
+from backend.app.utils.logger import logger
 
 
 class EmbeddingService:
