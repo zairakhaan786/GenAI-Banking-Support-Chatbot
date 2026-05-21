@@ -19,6 +19,7 @@ class Settings(BaseSettings):
     LLM_PROVIDER: str = "groq"
 
     # API Keys (at least one is recommended; fallback mode works without any)
+    # The application gracefully handles missing environment variables by falling back to mock components
     OPENAI_API_KEY: Optional[str] = None
     GROQ_API_KEY: Optional[str] = None
     GOOGLE_API_KEY: Optional[str] = None
