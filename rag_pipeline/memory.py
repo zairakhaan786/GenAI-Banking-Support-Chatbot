@@ -1,8 +1,8 @@
 """
-Session Memory Service
-----------------------
-In-memory, session-scoped conversation history with automatic expiry.
-Each session stores a list of (role, content) message pairs.
+Conversation Memory & Context Management
+----------------------------------------
+Stores conversation history per session to provide context-aware LLM generation
+and semantic retrieval. Formats history for LLM injection.
 """
 
 import time
