@@ -8,8 +8,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential gcc \
     && rm -rf /var/lib/apt/lists/*
 
+RUN python -m venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+
 COPY backend/requirements.txt .
-RUN pip install --no-cache-dir --user -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # ── Runtime Stage ──────────────────────────────────────────────────────────────
 FROM python:3.11-slim
@@ -17,8 +20,8 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Copy installed packages from builder
-COPY --from=builder /root/.local /root/.local
-ENV PATH=/root/.local/bin:$PATH
+COPY --from=builder /opt/venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
 
 # Copy project files
 COPY backend /app/backend
@@ -29,7 +32,8 @@ COPY data /app/data
 WORKDIR /app/backend
 
 # Create required directories
-RUN mkdir -p chroma_db uploads logs
+RUN mkdir -p chroma_db uploads logs .cache/huggingface
+ENV HF_HOME=/app/backend/.cache/huggingface
 
 # Non-root user for security
 RUN useradd -r -u 1001 bankbot && chown -R bankbot:bankbot /app
