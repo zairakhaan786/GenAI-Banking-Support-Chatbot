@@ -3,6 +3,7 @@ FastAPI Application Entry Point
 """
 
 from contextlib import asynccontextmanager
+import asyncio
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -17,19 +18,24 @@ from app.utils.logger import logger, setup_logger
 
 # ── Lifespan ───────────────────────────────────────────────────────────────────
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    """Startup: initialise logger, warm up services, bootstrap KB. Shutdown: cleanup."""
-    setup_logger()
-    logger.info(f"Starting {settings.APP_NAME} v{settings.VERSION}")
-
-    # Warm-up: initialise all singletons and load the knowledge base
+def init_kb():
+    """Initialise all singletons and load the knowledge base in the background."""
     try:
         pipeline = get_rag_pipeline()
         chunks = pipeline.bootstrap_knowledge_base()
         logger.info(f"Startup complete — knowledge base: {chunks} chunks ready")
     except Exception as exc:
         logger.error(f"Startup error (non-fatal): {exc}")
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Startup: initialise logger, warm up services, bootstrap KB. Shutdown: cleanup."""
+    setup_logger()
+    logger.info(f"Starting {settings.APP_NAME} v{settings.VERSION}")
+
+    # Warm-up: load the knowledge base in a background thread to prevent
+    # blocking the event loop and causing port binding timeouts on Render.
+    asyncio.create_task(asyncio.to_thread(init_kb))
 
     yield  # Application is running
 

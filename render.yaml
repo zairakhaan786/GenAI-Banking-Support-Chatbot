@@ -3,10 +3,12 @@ services:
     name: genai-banking-chatbot
     runtime: python
     rootDir: backend
-    buildCommand: cd backend && pip install -r requirements.txt
-    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     plan: free
     envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.8
       - key: LLM_PROVIDER
         value: fallback
       - key: GROQ_API_KEY
