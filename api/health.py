@@ -5,7 +5,7 @@ Health Route — GET /health
 from fastapi import APIRouter
 
 from backend.app.config import settings
-from app.models.schemas import ComponentStatus, HealthResponse
+from backend.app.models.schemas import ComponentStatus, HealthResponse
 from rag_pipeline.memory import get_memory_service
 from vector_db.vector_store import get_vector_store
 from backend.app.utils.logger import logger

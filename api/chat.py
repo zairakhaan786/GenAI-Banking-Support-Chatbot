@@ -7,7 +7,7 @@ returning contextual responses. Validates user input before processing.
 
 from fastapi import APIRouter, HTTPException, status
 
-from app.models.schemas import ChatRequest, ChatResponse, ErrorResponse
+from backend.app.models.schemas import ChatRequest, ChatResponse, ErrorResponse
 from rag_pipeline.rag_pipeline import get_rag_pipeline
 from backend.app.utils.logger import logger
 

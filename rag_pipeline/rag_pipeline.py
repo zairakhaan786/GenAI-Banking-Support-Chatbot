@@ -15,7 +15,7 @@ from typing import List, Tuple
 from langchain_core.documents import Document
 
 from backend.app.config import settings
-from app.models.schemas import ChatResponse, SourceChunk
+from backend.app.models.schemas import ChatResponse, SourceChunk
 from rag_pipeline.document_processor import DocumentProcessor
 from rag_pipeline.embeddings import get_embedding_service
 from rag_pipeline.llm_service import get_llm_service
