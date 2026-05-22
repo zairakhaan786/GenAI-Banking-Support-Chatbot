@@ -100,7 +100,7 @@ class LLMService:
         return self._fallback_generate(query, context_docs)
 
     def _llm_generate(self, prompt: str) -> str:
-        from langchain.schema import HumanMessage, SystemMessage
+        from langchain_core.messages import HumanMessage, SystemMessage
         try:
             system_msg = SystemMessage(content=(
                 "You are BankBot, a knowledgeable and professional AI banking assistant. "
