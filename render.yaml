@@ -3,8 +3,9 @@ services:
     name: genai-banking-chatbot
     runtime: python
     rootDir: backend
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    buildCommand: cd backend && pip install -r requirements.txt
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    plan: free
     envVars:
       - key: LLM_PROVIDER
         value: fallback
@@ -19,14 +20,10 @@ services:
       - key: LOG_LEVEL
         value: INFO
       - key: CHROMA_PERSIST_DIR
-        value: /opt/render/project/src/chroma_db
+        value: ./chroma_db
       - key: UPLOAD_DIR
-        value: /opt/render/project/src/uploads
+        value: ./uploads
       - key: LOG_FILE
-        value: /opt/render/project/src/logs/app.log
-    disk:
-      name: chroma-storage
-      mountPath: /opt/render/project/src/chroma_db
-      sizeGB: 1
+        value: ./logs/app.log
     healthCheckPath: /api/health
     autoDeploy: true
