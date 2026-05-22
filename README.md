@@ -94,6 +94,18 @@ FastAPI Backend
 
 ---
 
+## 🧠 How I Implemented the RAG Flow
+
+To make this chatbot intelligent and capable of answering specific banking queries, I designed a complete **Retrieval-Augmented Generation (RAG)** pipeline. Here is exactly how I built it to work behind the scenes:
+
+1. **Document Ingestion & Chunking:** First, I take banking documents (like policies, FAQs, or TXT/PDF files) and process them. I split this text into smaller, meaningful "chunks" using LangChain's text splitters. This ensures we only feed the most relevant piece of text to the AI later, rather than a massive 50-page document.
+2. **Generating Embeddings:** I used `sentence-transformers` (`all-MiniLM-L6-v2`) running locally to convert these text chunks into dense vector embeddings. I chose this approach so that the app doesn't have to rely on paid external APIs just to understand the semantic meaning of the text.
+3. **Vector Storage (ChromaDB):** I store these vector embeddings in **ChromaDB**. When a user asks a question, ChromaDB performs a rapid mathematical cosine similarity search to find the top 5 chunks of text that most closely match the meaning of the user's question.
+4. **Context-Aware Memory:** I implemented a session memory system. If a user asks "What are the interest rates for a personal loan?" and then follows up with "What is the maximum tenure for *it*?", my pipeline resolves the pronoun "it" using previous chat history before querying the vector database.
+5. **LLM Generation:** Finally, I take the user's question, the conversation history, and the highly relevant context retrieved from ChromaDB, and I pass it all into a Large Language Model (like Groq's Llama 3). The LLM synthesizes this raw data into a natural, conversational, and highly accurate response.
+
+---
+
 ## 🛠 Tech Stack
 
 | Layer | Technology |
