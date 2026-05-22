@@ -197,8 +197,8 @@ GitHub Actions CI
        │
        ▼ (on main branch)
 Render Web Service
-• Build: pip install -r requirements.txt
-• Start: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+• Build: pip install -r backend/requirements.txt
+• Start: PYTHONPATH=. uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
 • Persistent disk: /chroma_db (vector store)
 • Environment vars: GROQ_API_KEY, LLM_PROVIDER
 ```
