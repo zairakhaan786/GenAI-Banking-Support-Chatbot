@@ -55,8 +55,8 @@ This project strictly adheres to the provided assignment requirements. Here is h
 <img src="screenshots/upload_interface.png" alt="Upload" width="400"/>
 </td>
 <td width="50%">
-<b>API Working / Architecture Flow</b><br/>
-<img src="screenshots/api_working.png" alt="API Working" width="400"/>
+<b>Credit Cards Response</b><br/>
+<img src="screenshots/credit_cards_response.png" alt="Credit Cards Response" width="400"/>
 </td>
 </tr>
 </table>
