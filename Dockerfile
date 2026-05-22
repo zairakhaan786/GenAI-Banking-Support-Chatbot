@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential gcc \
     && rm -rf /var/lib/apt/lists/*
 
-COPY requirements.txt .
+COPY backend/requirements.txt .
 RUN pip install --no-cache-dir --user -r requirements.txt
 
 # ── Runtime Stage ──────────────────────────────────────────────────────────────
@@ -20,14 +20,13 @@ WORKDIR /app
 COPY --from=builder /root/.local /root/.local
 ENV PATH=/root/.local/bin:$PATH
 
-# Copy source code
-COPY . .
+# Copy project files
+COPY backend /app/backend
+COPY frontend /app/frontend
+COPY data /app/data
 
-# Copy frontend
-COPY ../frontend /app/../frontend
-
-# Copy data (pre-built knowledge base)
-COPY ../data /app/../data
+# Switch to backend directory for runtime
+WORKDIR /app/backend
 
 # Create required directories
 RUN mkdir -p chroma_db uploads logs

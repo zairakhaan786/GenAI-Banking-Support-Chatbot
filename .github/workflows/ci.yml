@@ -61,7 +61,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t genai-banking-chatbot:${{ github.sha }} ./backend
+          docker build -t genai-banking-chatbot:${{ github.sha }} .
 
       - name: Test container health
         run: |
