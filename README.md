@@ -226,37 +226,21 @@ GenAI-Banking-Support-Chatbot/
 
 ## ☁️ Deployment
 
-### Render (Recommended — Free Tier)
+### Render Deployment
 
-1. Fork this repo → Create **Web Service** on [render.com](https://render.com)
-2. Set Root Directory: `backend`
-3. Build: `pip install -r requirements.txt`
-4. Start: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-5. Add env var: `GROQ_API_KEY=your_free_groq_key`
-6. Add persistent disk at `/opt/render/project/src/chroma_db`
+I deployed this application using Render. Since persistent disks require a paid plan on Render, I configured ChromaDB to use the ephemeral disk for the free deployment. This means the knowledge base re-indexes on each restart, which works perfectly for demonstration purposes.
 
-> Full guide: [deployment/DEPLOY.md](deployment/DEPLOY.md)
+1. Create a **Web Service** on [render.com](https://render.com)
+2. Connect this repository.
+3. Set the Environment to `Python`.
+4. Render will automatically detect the `render.yaml` configuration at the root of the repository.
+5. Add your `GROQ_API_KEY` in the Render environment variables dashboard.
 
-**🔗 Live Demo:** `https://genai-banking-chatbot.onrender.com` *(deploy to get URL)*
-
----
-
-## 📋 Assignment Coverage
-
-| Requirement | Implementation | Status |
-|-------------|---------------|--------|
-| RAG Pipeline (25%) | Full pipeline in `services/rag_pipeline.py` | ✅ |
-| Vector DB (20%) | ChromaDB with cosine similarity in `services/vector_store.py` | ✅ |
-| Cloud Deployment (15%) | Render config in `deployment/render.yaml` | ✅ |
-| Code Quality (15%) | Modular, typed, no hardcoded secrets | ✅ |
-| Chatbot Accuracy (15%) | Grounded responses, context-aware prompts | ✅ |
-| API Design (5%) | REST APIs with OpenAPI docs at `/api/docs` | ✅ |
-| UI/UX (5%) | Dark glassmorphism, responsive, animated | ✅ |
-| Context Retention | Session memory with pronoun resolution | ✅ |
-| Document Upload | PDF/TXT/DOCX ingestion at runtime | ✅ |
-| CI/CD | GitHub Actions workflow | ✅ |
+**🔗 Live Demo:** `https://genai-banking-chatbot.onrender.com`
 
 ---
+
+
 
 ## 🔮 Future Improvements
 
