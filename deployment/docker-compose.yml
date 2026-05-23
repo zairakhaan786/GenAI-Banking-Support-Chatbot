@@ -3,7 +3,7 @@ version: "3.9"
 services:
   bankbot:
     build:
-      context: .
+      context: ..
     container_name: genai-banking-chatbot
     ports:
       - "8000:8000"
@@ -17,8 +17,8 @@ services:
     volumes:
       - chroma_data:/app/chroma_db
       - upload_data:/app/uploads
-      - ./data:/data:ro
-      - ./frontend:/app/../frontend:ro
+      - ../data:/data:ro
+      - ../frontend:/app/frontend:ro
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"]
