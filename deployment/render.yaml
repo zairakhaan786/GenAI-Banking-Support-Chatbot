@@ -4,8 +4,10 @@ services:
     runtime: python
     rootDir: .
     buildCommand: pip install -r backend/requirements.txt
-    startCommand: PYTHONPATH=. uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
     envVars:
+      - key: PYTHONPATH
+        value: /opt/render/project/src
       - key: LLM_PROVIDER
         value: groq
       - key: GROQ_API_KEY

@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import List, Optional
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, Field, field_validator
 
 
 # ── Chat Schemas ───────────────────────────────────────────────────────────────
@@ -10,13 +10,13 @@ class ChatRequest(BaseModel):
     session_id: str = Field(..., min_length=1, max_length=100, description="Unique session identifier")
     top_k: Optional[int] = Field(5, ge=1, le=20, description="Number of context chunks to retrieve")
 
-    @validator("query")
+    @field_validator("query")
     def query_must_not_be_blank(cls, v):
         if not v.strip():
             raise ValueError("Query cannot be blank or whitespace only")
         return v.strip()
 
-    @validator("session_id")
+    @field_validator("session_id")
     def session_id_must_be_alphanumeric(cls, v):
         import re
         if not re.match(r"^[a-zA-Z0-9_\-]{1,100}$", v):

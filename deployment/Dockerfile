@@ -27,13 +27,17 @@ ENV PATH="/opt/venv/bin:$PATH"
 COPY backend /app/backend
 COPY frontend /app/frontend
 COPY data /app/data
+COPY api /app/api
+COPY rag_pipeline /app/rag_pipeline
+COPY vector_db /app/vector_db
 
-# Switch to backend directory for runtime
-WORKDIR /app/backend
+# Switch to app directory for runtime
+WORKDIR /app
 
 # Create required directories
 RUN mkdir -p chroma_db uploads logs .cache/huggingface
-ENV HF_HOME=/app/backend/.cache/huggingface
+ENV HF_HOME=/app/.cache/huggingface
+ENV PYTHONPATH=/app
 
 # Non-root user for security
 RUN useradd -r -u 1001 bankbot && chown -R bankbot:bankbot /app
@@ -45,4 +49,4 @@ EXPOSE 8000
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
   CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"
 
-CMD ["python", "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]
+CMD ["python", "-m", "uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]

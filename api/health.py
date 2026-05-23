@@ -31,9 +31,9 @@ async def health_check() -> HealthResponse:
         doc_count = vs.get_document_count()
         components["vector_store"] = ComponentStatus(
             status="ok", details=f"ChromaDB online, {doc_count} documents indexed"
-        ).dict()
+        ).model_dump()
     except Exception as exc:
-        components["vector_store"] = ComponentStatus(status="error", details=str(exc)).dict()
+        components["vector_store"] = ComponentStatus(status="error", details=str(exc)).model_dump()
         doc_count = 0
 
     # Session memory
@@ -42,9 +42,9 @@ async def health_check() -> HealthResponse:
         active = mem.get_session_count()
         components["session_memory"] = ComponentStatus(
             status="ok", details=f"{active} active session(s)"
-        ).dict()
+        ).model_dump()
     except Exception as exc:
-        components["session_memory"] = ComponentStatus(status="error", details=str(exc)).dict()
+        components["session_memory"] = ComponentStatus(status="error", details=str(exc)).model_dump()
 
     # LLM provider
     try:
@@ -52,9 +52,9 @@ async def health_check() -> HealthResponse:
         llm = get_llm_service()
         components["llm"] = ComponentStatus(
             status="ok", details=f"Provider: {llm.model_name}"
-        ).dict()
+        ).model_dump()
     except Exception as exc:
-        components["llm"] = ComponentStatus(status="degraded", details=str(exc)).dict()
+        components["llm"] = ComponentStatus(status="degraded", details=str(exc)).model_dump()
 
     overall = "healthy" if all(c["status"] == "ok" for c in components.values()) else "degraded"
 
