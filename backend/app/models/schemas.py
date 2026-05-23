@@ -38,6 +38,8 @@ class ChatResponse(BaseModel):
     retrieval_count: int
     timestamp: datetime = Field(default_factory=datetime.utcnow)
 
+    model_config = {"protected_namespaces": ()}
+
 
 # ── Upload Schemas ─────────────────────────────────────────────────────────────
 

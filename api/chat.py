@@ -5,6 +5,7 @@ Handles incoming chat requests, triggering the RAG pipeline, and
 returning contextual responses. Validates user input before processing.
 """
 
+# pyrefly: ignore [missing-import]
 from fastapi import APIRouter, HTTPException, status
 
 from backend.app.models.schemas import ChatRequest, ChatResponse, ErrorResponse
