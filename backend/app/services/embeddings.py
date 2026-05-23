@@ -7,6 +7,11 @@ Provides a singleton instance to avoid reloading the model on every request.
 
 from functools import lru_cache
 from typing import List
+import os
+
+# Fix for macOS 'meta tensor' bug with PyTorch/Transformers
+os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
+os.environ["PYTORCH_MPS_HIGH_WATERMARK_RATIO"] = "0.0"
 
 from langchain_huggingface import HuggingFaceEmbeddings
 
