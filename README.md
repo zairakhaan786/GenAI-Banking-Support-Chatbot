@@ -13,7 +13,7 @@
 
 **A production-ready AI banking assistant that answers customer queries about loans, credit cards, accounts, and banking policies — grounded in verified knowledge via RAG.**
 
-[🚀 Live Demo](#-deployment) · [📖 API Docs](http://localhost:8000/api/docs) · [🏗️ Architecture](docs/architecture.md)
+[🚀 Live Demo](http://51.21.167.223/) · [📖 API Docs](http://51.21.167.223/api/docs) · [🏗️ Architecture](docs/architecture.md)
 
 </div>
 
@@ -27,7 +27,7 @@ This project strictly adheres to the provided assignment requirements. Here is h
 - ✅ **README**: This concise and crisp professional document.
 - ✅ **Setup Instructions**: Detailed below in the Quick Start section.
 - ✅ **Architecture Explanation**: Documented thoroughly in `docs/architecture.md` with flow diagrams.
-- ✅ **Cloud Deployment**: Configured via `deployment/render.yaml` and deployed on Render.
+- ✅ **Cloud Deployment**: Configured via `deployment/docker-compose.yml` and deployed on AWS EC2.
 - ✅ **RAG Pipeline**: Implemented in `rag_pipeline/` with document ingestion, text chunking, and embedding generation.
 - ✅ **Vector DB Implementation**: Implemented using ChromaDB in `vector_db/`.
 - ✅ **Backend APIs**: Built with FastAPI in `api/` (`/chat`, `/upload`, `/health`).
@@ -146,15 +146,16 @@ GenAI-Banking-Support-Chatbot/
 
 ## ☁️ Deployment
 
-The application is configured for automatic deployment on Render using the `deployment/render.yaml` file. 
+The application is configured for robust deployment on **AWS EC2** using Docker Compose.
 
-To deploy:
-1. Push this repository to GitHub.
-2. Connect it to Render via a New Web Service.
-3. Render reads `deployment/render.yaml` (configured in settings or loaded directly) and deploys both backend and frontend seamlessly.
+To deploy on AWS EC2:
+1. Launch an Ubuntu EC2 instance (e.g., `t3.micro` or larger) with at least 16GB of storage.
+2. Clone the repository and install Docker.
+3. Run `docker-compose -f deployment/docker-compose.yml up -d --build`.
+4. Ensure Port 80 is open in the AWS Security Group.
 
 **GitHub Repository:** [https://github.com/zairakhaan786/GenAI-Banking-Support-Chatbot](https://github.com/zairakhaan786/GenAI-Banking-Support-Chatbot)  
-**Live Deployment:** `https://genai-banking-chatbot.onrender.com`
+**Live Deployment:** [http://51.21.167.223/](http://51.21.167.223/)
 
 ---
 
