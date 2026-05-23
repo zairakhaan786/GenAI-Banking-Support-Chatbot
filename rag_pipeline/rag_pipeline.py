@@ -24,7 +24,7 @@ from vector_db.vector_store import get_vector_store
 from backend.app.utils.logger import logger
 
 # Path to the built-in banking knowledge base
-KNOWLEDGE_BASE_PATH = Path(__file__).resolve().parents[3] / "data" / "banking_knowledge_base.txt"
+KNOWLEDGE_BASE_PATH = Path(__file__).resolve().parents[1] / "data" / "banking_knowledge_base.txt"
 
 
 class RAGPipeline:
